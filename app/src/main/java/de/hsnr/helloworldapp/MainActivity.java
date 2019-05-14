@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
         nachricht.setText(R.string.willkommen);
         weiterFertig.setText(R.string.weiter);
-        wechselButton.setText("Nächste Seite");
+        wechselButton.setText("Zur nächsten Seite");
         eingabe = findViewById(R.id.eingabe);
 
         eingabe.setOnEditorActionListener((v, actionId, event) -> {
