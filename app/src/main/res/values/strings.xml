@@ -1,0 +1,37 @@
+<resources>
+    <!-- Name der App -->
+    <string name="app_name">HelloWorldApp</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_activity_zugriff_auf_ressourcen">ZugriffAufRessourcenActivity</string>
+
+
+    <!-- Willkommensmeldung -->
+    <string name="willkommen">
+    Guten Tag. Schön, dass Sie mich gestartet haben.
+    Bitte verraten Sie mir Ihren Namen.
+    </string>
+
+    <string name="danke">
+    Danke fürs Drücken
+    </string>
+
+
+    <!-- persönlicher Gruß -->
+    <string name="hallo">
+    Hallo %1$s. Ich freue mich, Sie kennenzulernen.
+    </string>
+
+    <!-- Beschriftungen für Schaltflächen -->
+    <string name="weiter">Weiter</string>
+    <string name="fertig">Fertig</string>
+    <string name="wechsel">Weiter zu Seite 2</string>
+
+    <string name="vorname_nachname">Vorname Nachname</string>
+    <string name="title_activity_seite2">Seite2</string>
+    <string name="kamera">Kamera</string>
+    <string name="foto_kamera">Foto-Kamera</string>
+
+</resources>
