@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         weiterFertig.setText(R.string.weiter);
         wechselButton.setText("Nächste Seite");
         eingabe = findViewById(R.id.eingabe);
-// TESTTESTTEST 
+// TESTTESTTEST
         eingabe.setOnEditorActionListener((v, actionId, event) -> {
             if (weiterFertig.isEnabled()) {
                 weiterFertig.performClick();
