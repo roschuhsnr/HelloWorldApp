@@ -42,6 +42,13 @@
         android:layout_height="wrap_content"
         android:text="Kamera" />
 
+    <Button
+        android:id="@+id/zurDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DB" />
+
+
     <TextView
         android:id="@+id/hallo"
         android:layout_width="match_parent"

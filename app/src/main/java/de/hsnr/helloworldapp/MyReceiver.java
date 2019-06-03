@@ -42,7 +42,7 @@ public class MyReceiver extends BroadcastReceiver {
             m.notify(ID, n);
         }
     }
-
+//hihi
 
     }
 

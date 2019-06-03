@@ -17,7 +17,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements TextToSpeech.OnInitListener, View.OnClickListener {
     private TextView nachricht;
-    private Button weiterFertig, wechselButton, zur_Kamera;
+    private Button weiterFertig, wechselButton, zur_Kamera, zur_DB;
     private EditText eingabe;
     private boolean ersterKlick;
 
@@ -47,6 +47,14 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                 startActivity(intent);
                      });
 
+        //Button um zur DB zu gelangen
+        zur_DB = findViewById(R.id.zurDB);
+        zur_DB.setOnClickListener((v) -> {
+            Intent intent = new Intent(
+                    this, DB.class);
+            //    MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
+            startActivity(intent);
+        });
 
 
 
@@ -54,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         weiterFertig.setText(R.string.weiter);
         wechselButton.setText("Nächste Seite");
         eingabe = findViewById(R.id.eingabe);
-// TESTTESTTEST 
+// TESTTESTTEST
         eingabe.setOnEditorActionListener((v, actionId, event) -> {
             if (weiterFertig.isEnabled()) {
                 weiterFertig.performClick();
@@ -94,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         });
         weiterFertig.setEnabled(false);
 
-
+//testCommit
     }
 
     @Override
